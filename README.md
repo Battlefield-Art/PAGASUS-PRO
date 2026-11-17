@@ -717,11 +717,11 @@ All generated files are saved in the **same directory** where you run the script
 | Python 3.7+ | ✅ Yes | Run the tool | `sudo apt install python3` | `pkg install python` |
 | colorama | ✅ Yes | Color terminal output | `pip3 install colorama` | `pip install colorama` |
 | ADB | ✅ Yes | Device communication | `sudo apt install adb` | `pkg install android-tools` |
-| scrcpy | ⚪ Optional | Screen Mirror feature | `sudo apt install scrcpy` | ❌ Termux mein kaam nahi |
+| scrcpy | ⚪ Optional | Screen Mirror feature | `sudo apt install scrcpy` | ❌ Not supported in Termux |
 | nmap | ⚪ Optional | Network scan in Security Tools | `sudo apt install nmap` | `pkg install nmap` |
 | Git | ⚪ Recommended | Clone the repository | `sudo apt install git` | `pkg install git` |
 
-> 💡 **Shortcut:** `pip install -r requirements.txt` se sab Python dependencies ek baar mein install ho jaati hain.
+> 💡 **Shortcut:** Run `pip install -r requirements.txt` to install all Python dependencies in one go.
 
 ---
 
