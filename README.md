@@ -14,11 +14,11 @@
 **Android Device Management & Security Audit Tool**
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS%20%7C%20Termux-lightgrey?style=for-the-badge)](https://github.com/thakur2309/PAGASUS-PRO)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS%20%7C%20Termux-lightgrey?style=for-the-badge)](https://github.com/thakur2309/PEGASUS-PRO)
 [![ADB](https://img.shields.io/badge/Requires-ADB-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/tools/adb)
-[![Version](https://img.shields.io/badge/Version-1.3-orange?style=for-the-badge)](https://github.com/thakur2309/PAGASUS-PRO/releases)
+[![Version](https://img.shields.io/badge/Version-1.3-orange?style=for-the-badge)](https://github.com/thakur2309/PEGASUS-PRO/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](./LICENSE)
-[![Stars](https://img.shields.io/github/stars/thakur2309/PAGASUS-PRO?style=for-the-badge)](https://github.com/thakur2309/PAGASUS-PRO/stargazers)
+[![Stars](https://img.shields.io/github/stars/thakur2309/PEGASUS-PRO?style=for-the-badge)](https://github.com/thakur2309/PEGASUS-PRO/stargazers)
 
 <br/>
 
@@ -142,11 +142,11 @@
 
 | Platform | Command |
 |----------|---------|
-| **Ubuntu / Debian / Kali** | `sudo apt install -y python3 adb scrcpy git && git clone https://github.com/thakur2309/PAGASUS-PRO.git && cd PAGASUS-PRO && pip3 install -r requirements.txt && python3 pegasus_v_1.3.py` |
-| **Arch / Manjaro / BlackArch** | `sudo pacman -S python android-tools scrcpy git && git clone https://github.com/thakur2309/PAGASUS-PRO.git && cd PAGASUS-PRO && pip install -r requirements.txt && python3 pegasus_v_1.3.py` |
-| **macOS** | `brew install python android-platform-tools scrcpy git && git clone https://github.com/thakur2309/PAGASUS-PRO.git && cd PAGASUS-PRO && pip3 install -r requirements.txt && python3 pegasus_v_1.3.py` |
-| **Windows** | Install Python + ADB manually (see guide below), then: `git clone https://github.com/thakur2309/PAGASUS-PRO.git && cd PAGASUS-PRO && pip install -r requirements.txt && python pegasus_v_1.3.py` |
-| **📱 Termux (Android)** | `pkg update && pkg install python git android-tools && git clone https://github.com/thakur2309/PAGASUS-PRO.git && cd PAGASUS-PRO && pip install -r requirements.txt && python pegasus_v_1.3.py` |
+| **Ubuntu / Debian / Kali** | `sudo apt install -y python3 adb scrcpy git && git clone https://github.com/thakur2309/PEGASUS-PRO.git && cd PEGASUS-PRO && pip3 install -r requirements.txt && python3 pegasus_v_1.3.py` |
+| **Arch / Manjaro / BlackArch** | `sudo pacman -S python android-tools scrcpy git && git clone https://github.com/thakur2309/PEGASUS-PRO.git && cd PEGASUS-PRO && pip install -r requirements.txt && python3 pegasus_v_1.3.py` |
+| **macOS** | `brew install python android-platform-tools scrcpy git && git clone https://github.com/thakur2309/PEGASUS-PRO.git && cd PEGASUS-PRO && pip3 install -r requirements.txt && python3 pegasus_v_1.3.py` |
+| **Windows** | Install Python + ADB manually (see guide below), then: `git clone https://github.com/thakur2309/PEGASUS-PRO.git && cd PEGASUS-PRO && pip install -r requirements.txt && python pegasus_v_1.3.py` |
+| **📱 Termux (Android)** | `pkg update && pkg install python git android-tools && git clone https://github.com/thakur2309/PEGASUS-PRO.git && cd PEGASUS-PRO && pip install -r requirements.txt && python pegasus_v_1.3.py` |
 
 ---
 
@@ -179,8 +179,8 @@ sudo apt install nmap -y
 
 **Step 6 — Clone the repository**
 ```bash
-git clone https://github.com/thakur2309/PAGASUS-PRO.git
-cd PAGASUS-PRO
+git clone https://github.com/thakur2309/PEGASUS-PRO.git
+cd PEGASUS-PRO
 ```
 
 **Step 7 — Run Pegasus v1.3**
@@ -220,8 +220,8 @@ sudo pacman -S nmap
 
 **Step 5 — Clone the repository**
 ```bash
-git clone https://github.com/thakur2309/PAGASUS-PRO.git
-cd PAGASUS-PRO
+git clone https://github.com/thakur2309/PEGASUS-PRO.git
+cd PEGASUS-PRO
 ```
 
 **Step 6 — Run Pegasus v1.3**
@@ -330,8 +330,8 @@ winget install Python.Python.3 Google.PlatformTools Genymobile.scrcpy Git.Git
 
 Open **Command Prompt** or **PowerShell**:
 ```powershell
-git clone https://github.com/thakur2309/PAGASUS-PRO.git
-cd PAGASUS-PRO
+git clone https://github.com/thakur2309/PEGASUS-PRO.git
+cd PEGASUS-PRO
 ```
 
 **Step 7 — Install Python dependencies**
@@ -393,8 +393,8 @@ brew install nmap
 
 **Step 6 — Clone the repository**
 ```bash
-git clone https://github.com/thakur2309/PAGASUS-PRO.git
-cd PAGASUS-PRO
+git clone https://github.com/thakur2309/PEGASUS-PRO.git
+cd PEGASUS-PRO
 ```
 
 **Step 7 — Run Pegasus v1.3**
@@ -456,8 +456,8 @@ pkg install nmap -y
 
 **Step 6 — Clone the repository**
 ```bash
-git clone https://github.com/thakur2309/PAGASUS-PRO.git
-cd PAGASUS-PRO
+git clone https://github.com/thakur2309/PEGASUS-PRO.git
+cd PEGASUS-PRO
 ```
 
 **Step 7 — Install Python dependencies**
@@ -478,30 +478,121 @@ python pegasus_v_1.3.py
 
 ---
 
-#### 📡 How to Connect a Device in Termux
+#### 📡 How to Connect a Device in Termux (Wireless Debugging)
 
-You can control another Android device from Termux using **Wi-Fi (Wireless ADB)**.
+You can control a **second Android phone (Phone 2)** directly from Termux on **Phone 1** using **Wireless Debugging** — no USB cable and no PC needed.
 
-**Method 1 — Connect another device over Wi-Fi**
+> 📌 **Requirements**
+> - Phone 2 must run **Android 11 or higher**
+> - Both phones must be on the **same Wi-Fi network** (or Phone 2 connected to Phone 1's hotspot)
+> - Termux on Phone 1 must have `android-tools` installed (done in Step 4 above)
 
-1. Enable USB Debugging on the target device (see [Android Device Setup](#-android-device-setup) section)
-2. Connect the target device to your phone (running Termux) via USB cable
-3. Run this command in Termux:
-```bash
-adb tcpip 5555
+**Step 1 — Enable Developer Options on Phone 2**
+
 ```
-4. Unplug the USB cable, then find the target device IP:  
-   → Settings → Wi-Fi → Tap connected network → IP Address
-5. Run Pegasus and select **`[2] Connect a Device`**
-6. Enter the IP address — wireless connection is now active ✅
-
-**Method 2 — Manage the same device (localhost)**
-
-If you want to manage your own phone directly:
-```bash
-adb connect localhost:5555
+Settings → About Phone → Tap "Build Number" 7 times
 ```
-> ⚠️ This requires either a rooted phone or Wireless Debugging enabled (Android 11+ → Developer Options → Wireless Debugging).
+
+**Step 2 — Turn on Wireless Debugging on Phone 2**
+
+1. Go to **Settings → Developer Options**
+2. Turn **Wireless debugging** **ON**
+3. The first time, Android shows this prompt:
+
+   **"Allow wireless debugging on this network?"**
+
+   ✅ Tick **"Always allow on this network"**, then tap **Allow**.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/thakur2309/PEGASUS-PRO/refs/heads/main/WhatsApp%20Image%202026-11-17%20at%204.33.07%20PM.jpeg" alt="Allow wireless debugging on this network prompt" width="350">
+</p>
+
+**Step 3 — Get the pairing details on Phone 2**
+
+1. Tap on **Wireless debugging** to open its menu (do not just flip the toggle)
+2. Tap **Pair device with pairing code**
+3. Note down these three values:
+   - **IP address**
+   - **Pairing port**
+   - **Pairing code** (6 digits)
+
+> 💡 Keep this pairing dialog open. If you leave it, the code expires and you will need to open it again to get a fresh code and port.
+
+**Step 4 — Pair from Termux on Phone 1**
+
+```bash
+adb pair PHONE2_IP:PAIRING_PORT
+```
+
+Example:
+```bash
+adb pair 192.168.1.5:37215
+```
+
+When Termux asks for the pairing code, enter the 6-digit code shown on Phone 2. You should see `Successfully paired`.
+
+**Step 5 — Connect to Phone 2**
+
+Go back to the main **Wireless debugging** screen on Phone 2. Under **IP address & Port** you will see the connection IP and port.
+
+> ⚠️ The **connection port is different** from the pairing port.
+
+```bash
+adb connect PHONE2_IP:CONNECT_PORT
+```
+
+Example:
+```bash
+adb connect 192.168.1.5:41823
+```
+
+**Step 6 — Verify the connection**
+
+```bash
+adb devices
+```
+
+If your device is listed with the word `device` next to it, the connection is successful ✅
+
+```
+List of devices attached
+192.168.1.5:41823    device
+```
+
+**Step 7 — Run Pegasus**
+
+```bash
+cd PEGASUS-PRO
+python pegasus_v_1.3.py
+```
+
+Pegasus will detect the connected device automatically. Select **`[1] Check Device`** to confirm.
+
+**🔁 Reconnecting later**
+
+You only need to pair once. Next time, just turn on **Wireless debugging** on Phone 2, check the current **IP address & Port**, and run:
+```bash
+adb connect PHONE2_IP:CONNECT_PORT
+adb devices
+```
+> The connection port changes every time Wireless debugging is turned off and on again.
+
+**🛠️ Connection problems?**
+
+| Problem | Solution |
+|---------|----------|
+| `failed to connect` | Check that both phones are on the same Wi-Fi and Wireless debugging is ON |
+| Pairing fails or times out | Reopen **Pair device with pairing code** to get a new code and port |
+| Device shows `offline` or `unauthorized` | Run `adb kill-server`, then `adb connect` again and accept the prompt on Phone 2 |
+| Device not listed in `adb devices` | Repeat the pair and connect steps, or use **`[21] Troubleshoot Connection`** in Pegasus |
+
+**Alternative — Manage the same phone (localhost)**
+
+To control the phone that is running Termux, enable **Wireless debugging** on the same phone, pair using the pairing code (split-screen or Termux floating window helps, as the code disappears when you leave the dialog), then connect:
+```bash
+adb pair localhost:PAIRING_PORT
+adb connect localhost:CONNECT_PORT
+```
 
 ---
 
@@ -527,6 +618,8 @@ adb connect localhost:5555
 ---
 
 
+
+## 📲 Android Device Setup
 
 USB Debugging must be enabled on your Android device before Pegasus can connect.
 
@@ -624,11 +717,11 @@ All generated files are saved in the **same directory** where you run the script
 | Python 3.7+ | ✅ Yes | Run the tool | `sudo apt install python3` | `pkg install python` |
 | colorama | ✅ Yes | Color terminal output | `pip3 install colorama` | `pip install colorama` |
 | ADB | ✅ Yes | Device communication | `sudo apt install adb` | `pkg install android-tools` |
-| scrcpy | ⚪ Optional | Screen Mirror feature | `sudo apt install scrcpy` | ❌ Termux mein kaam nahi |
+| scrcpy | ⚪ Optional | Screen Mirror feature | `sudo apt install scrcpy` | ❌ Not supported in Termux |
 | nmap | ⚪ Optional | Network scan in Security Tools | `sudo apt install nmap` | `pkg install nmap` |
 | Git | ⚪ Recommended | Clone the repository | `sudo apt install git` | `pkg install git` |
 
-> 💡 **Shortcut:** `pip install -r requirements.txt` se sab Python dependencies ek baar mein install ho jaati hain.
+> 💡 **Shortcut:** Run `pip install -r requirements.txt` to install all Python dependencies in one go.
 
 ---
 
